@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&display=swap');
+
+
+*{
+    margin: 0;
+}
+
+
+div{
+    display: block;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+    height: 1000px;
+}
+header h2{
+    background: #fdfdfd;
+    padding: 45px;
+    border-bottom: 1px solid lightgrey;
+    text-align: center;
+    margin: 0;
+    font-size: 2rem;
+    font-family: "Lato";
+    font-weight: 700px;
+}
+
+.wrapper{
+    margin-left: 7rem;
+    max-width: 720px;
+    margin-top: 4rem;
+    background-color: #fff;
+}
+
+.clearfix::before, .clearfix::after{
+    content: " ";
+    display: table;
+}
+
+.clearfix::after{
+    clear: left;
+}
+
+.article-section{
+    max-width: 650px;
+    padding: 45px;
+    background: #fff;
+    margin-right: auto;
+    border-bottom: 1px solid lightgrey;
+}
+
+.main-section{
+    max-width:650px;
+    background: #fff; 
+}
+
+.pick1{
+    height: 17rem;
+    display: block;
+    max-width: 720px;
+}
+
+.article-text p{
+    line-height: calc(1ex / 0.32);
+    font-size: 16px;
+    font-family: "Lato";
+    font-weight: 400px;
+}
+
+.article{
+    max-width: 740px;
+}
+
+.aside1{
+    display: block;
+    position: absolute;
+    top: 12em;
+    left: 58rem;
+    background: #fff;
+}
+
+.float-right{
+    float: right;
+    max-width: 340px;
+}
+
+.aside-text{
+    padding: 20px;
+}
+
+.aside-text p{
+    line-height: calc(1ex / 0.32);
+    font-size: 16px;
+    margin-bottom: 2rem;
+    font-family: "Lato";
+    font-weight: 400px;
+}
+
+h1{
+    font-size: 2.5rem;
+    font-family: "Lato";
+    font-weight: 700px;
+    margin-bottom: 2rem;
+}
+
+h3{
+    font-size: 1.5rem;
+    font-family: "Lato";
+    font-weight: 700px;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+
+h5{
+    font-size: 1.1rem;
+    font-family: "Lato";
+    font-style: italic;
+    font-weight: 400px;
+    margin-bottom: 2rem;
+}
+
+h2{
+    margin-bottom: 1.5rem;
+    margin-top: 1.8rem;
+    font-family: "Lato";
+    font-weight: 700px;
+}
+
+.aside-text a{
+    display: inline-block;
+    text-decoration: none;
+    font-size: 1.1rem;
+    padding: 0.65em 1.5em 0.65em 1.5em;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+    background-color: rgb(46, 36, 36);
+    color: #fff !important;
+    cursor: pointer;
+    font-family: "Lato";
+    font-weight: 500px;
+}
+
+.first-aside{
+    border-bottom: 1px solid #ccc;
+}
+
+.first-aside img{
+    max-width: 340px;
+    padding: 0;
+}
+
+.second-aside{
+    border-bottom: 1px solid #ccc;
+}
+
+.subsection{
+    max-width: 346px;
+    float: left;
+    padding-right: 30px;
+}
+
+.subsection img{
+    width: 346px;
+}
+
+.subsection p{
+    line-height: calc(1ex / 0.32);
+    font-size: 16px;
+    font-family: "Lato";
+    font-weight: 400px;
+}
+
+.pre-footer div{
+    max-width: 1128px;
+    margin: 0 auto;
+    display: block;
+}
+
+.pre-footer{
+    padding: 20px 0 20px;
+    color: white;
+    background: rgb(27, 26, 26);
+    margin-top: 2rem;
+}
+
+.subsection h2 {
+    font-family: "Lato";
+    font-weight: 700px;
+}
+
+.about{
+    margin: 60px auto;
+    max-width: 750px;
+    margin-bottom: 5rem;
+}
+
+.text{
+    float: right;
+    max-width: 76%;
+}
+
+.about img{
+    width: 160px;
+    border-radius: 50%;
+    float: left;
+}
+
+.about > h4{
+    text-align: center;
+}
+
+h4{
+    font-size: 20px;
+    font-family: "Lato";
+    font-weight: 400px;
+    margin-bottom: 3rem;
+}
+
+.text h1{
+    font-size: x-large;
+    text-decoration: underline;
+}
+
+.text p{
+    font-size: 15px;
+    font-family: "Lato";
+    font-weight: 400px;
+    margin-bottom: 3rem;
+    line-height: calc(1ex / 0.32);
+}
+
+footer{
+    text-align: center;
+    background: rgb(27, 26, 26);
+    padding: 10px 20px;
+    color: white;
+}
+
+.footer-p{
+    max-width: 100%;
+    font-size: 11px;
+    font-family: "Lato";
+    font-weight: 400px;
+    opacity: 0.5;
+}
