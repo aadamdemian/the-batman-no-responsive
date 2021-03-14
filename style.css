@@ -136,10 +136,17 @@ h2{
     margin-bottom: 1rem;
     border-radius: 5px;
     background-color: rgb(46, 36, 36);
-    color: #fff !important;
+    color: #fff;
     cursor: pointer;
     font-family: "Lato";
     font-weight: 500px;
+    transition: .3s;
+}
+
+.aside-text a:hover{
+    color:black;
+    border: 1px solid black;
+    background-color: white;
 }
 
 .first-aside{
